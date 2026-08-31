@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IPL Score Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">
+        🏏 IPL Score Analysis
+    </div>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#batsmen">Batsmen</a>
+        <a href="#bowlers">Bowlers</a>
+        <a href="#teams">Teams</a>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div>
+            <p class="subtitle">CRICKET DATA ANALYTICS</p>
+
+            <h1>IPL Score<br>Analysis System</h1>
+
+            <p class="description">
+                Explore IPL match data, batting performances,
+                bowling statistics and team records.
+            </p>
+
+            <button onclick="scrollToDashboard()">
+                Explore Dashboard →
+            </button>
+        </div>
+
+        <div class="hero-ball">
+            🏏
+        </div>
+    </section>
+
+
+    <!-- DASHBOARD -->
+    <section id="dashboard" class="section">
+
+        <div class="section-title">
+            <p>OVERVIEW</p>
+            <h2>IPL Dashboard</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <span class="card-icon">🏟️</span>
+                <h3 id="totalMatches">0</h3>
+                <p>Total Matches</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🏏</span>
+                <h3 id="totalRuns">0</h3>
+                <p>Total Runs</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">👥</span>
+                <h3 id="totalPlayers">0</h3>
+                <p>Total Players</p>
+            </div>
+
+            <div class="card">
+                <span class="card-icon">🏆</span>
+                <h3 id="totalTeams">0</h3>
+                <p>Total Teams</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TOP BATSMEN -->
+    <section id="batsmen" class="section">
+
+        <div class="section-title">
+            <p>BATTING</p>
+            <h2>Top 10 Batsmen</h2>
+        </div>
+
+        <div class="table-container">
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Runs</th>
+                    <th>Matches</th>
+                    <th>Strike Rate</th>
+                </tr>
+                </thead>
+
+                <tbody id="batsmenTable">
+                <tr>
+                    <td colspan="5">Loading data...</td>
+                </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- TOP BOWLERS -->
+    <section id="bowlers" class="section">
+
+        <div class="section-title">
+            <p>BOWLING</p>
+            <h2>Top 10 Bowlers</h2>
+        </div>
+
+        <div class="table-container">
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Wickets</th>
+                    <th>Runs Conceded</th>
+                    <th>Economy</th>
+                </tr>
+                </thead>
+
+                <tbody id="bowlersTable">
+                <tr>
+                    <td colspan="5">Loading data...</td>
+                </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- TEAM WINS -->
+    <section id="teams" class="section">
+
+        <div class="section-title">
+            <p>TEAM PERFORMANCE</p>
+            <h2>Team Wins</h2>
+        </div>
+
+        <div id="teamWins" class="team-grid">
+            <p>Loading team data...</p>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <h3>🏏 IPL Score Analysis</h3>
+
+    <p>
+        Java & CSV based IPL Data Analysis Project
+    </p>
+
+    <p class="copyright">
+        © 2026 IPL Score Analysis
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
