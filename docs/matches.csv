@@ -1,0 +1,11 @@
+id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue
+1,2024,Chennai,2024-03-22,Chennai Super Kings,Royal Challengers Bangalore,Royal Challengers Bangalore,field,normal,0,Chennai Super Kings,6,0,RD Gaikwad,MA Chidambaram Stadium
+2,2024,Chandigarh,2024-03-23,Punjab Kings,Delhi Capitals,Delhi Capitals,field,normal,0,Punjab Kings,4,0,SM Curran,Maharaja Yadavindra Singh International Cricket Stadium
+3,2024,Kolkata,2024-03-23,Kolkata Knight Riders,Sunrisers Hyderabad,Sunrisers Hyderabad,field,normal,0,Kolkata Knight Riders,4,0,AD Russell,Eden Gardens
+4,2024,Jaipur,2024-03-24,Rajasthan Royals,Lucknow Super Giants,Lucknow Super Giants,field,normal,0,Rajasthan Royals,20,0,SV Samson,Sawai Mansingh Stadium
+5,2024,Ahmedabad,2024-03-24,Gujarat Titans,Mumbai Indians,Mumbai Indians,field,normal,0,Gujarat Titans,6,0,Shubman Gill,Narendra Modi Stadium
+6,2024,Chennai,2024-03-26,Chennai Super Kings,Gujarat Titans,Gujarat Titans,field,normal,0,Chennai Super Kings,63,0,Dube,MA Chidambaram Stadium
+7,2024,Bengaluru,2024-03-25,Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,normal,0,Royal Challengers Bangalore,4,0,V Kohli,M Chinnaswamy Stadium
+8,2024,Hyderabad,2024-03-27,Sunrisers Hyderabad,Mumbai Indians,Mumbai Indians,bat,normal,0,Sunrisers Hyderabad,31,0,H Klaasen,Rajiv Gandhi International Stadium
+9,2024,Delhi,2024-03-28,Rajasthan Royals,Delhi Capitals,Rajasthan Royals,bat,normal,0,Rajasthan Royals,12,0,R Parag,Arun Jaitley Stadium
+10,2024,Mumbai,2024-03-29,Mumbai Indians,Royal Challengers Bangalore,Mumbai Indians,bat,normal,0,Mumbai Indians,7,0,JJ Bumrah,Wankhede Stadium

@@ -117,10 +117,8 @@ async function loadIPLData() {
 
         console.log("Loading IPL data...");
 
-        matches = await loadCSV("../data/matches.csv");
-
-        deliveries = await loadCSV("../data/deliveries.csv");
-
+        matches = await loadCSV("matches.csv");
+        deliveries = await loadCSV("deliveries.csv");
         console.log("Matches loaded:", matches.length);
         console.log("Deliveries loaded:", deliveries.length);
 
