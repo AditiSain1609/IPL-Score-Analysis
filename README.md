@@ -60,3 +60,40 @@ IPLScoreAnalysis/
 ├── .gitignore
 ├── README.md
 └── IPLScoreAnalysis.iml
+How to Run
+1. Clone the repository
+git clone https://github.com/AditiSain1609/IPL-Score-Analysis.git
+2. Open the project
+
+Open the project in IntelliJ IDEA.
+
+3. Run the application
+
+Run:
+
+src/Main.java
+4. Select an option
+
+The application provides a menu for different IPL statistics and analysis.
+
+📊 Sample Analysis
+
+The application can calculate:
+
+Total runs scored by teams
+Highest scoring batsmen
+Most sixes
+Most fours
+Team wins
+Player statistics
+Strike rate
+Bowler economy rate
+Season statistics
+Team performance
+🎯 Project Objective
+
+The main objective of this project is to demonstrate how Java can be used to read, process, and analyze structured cricket data using Object-Oriented Programming and Java Collections.
+
+👨‍💻 Author
+
+Aditi Saini
